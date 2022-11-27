@@ -12,4 +12,8 @@ btnNo.addEventListener('mouseenter', function(e) { moverPosicion(e.target) });
 
 btnSi.addEventListener('click', function(e) {
     alert('Sabia que me dirias que si ')
+
+    divModoSexo.style.display = 'block';
+    const imagen = new Image('img\1fafc6a5e4da9a81780fff7dadd9355b.jpg')
 });
+
